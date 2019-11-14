@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		5A8297A7237DEFA000D7A051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8297A6237DEFA000D7A051 /* AppDelegate.swift */; };
 		5A8297A9237DEFA000D7A051 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8297A8237DEFA000D7A051 /* SceneDelegate.swift */; };
-		5A8297AB237DEFA000D7A051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8297AA237DEFA000D7A051 /* ViewController.swift */; };
 		5A8297AE237DEFA000D7A051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8297AC237DEFA000D7A051 /* Main.storyboard */; };
 		5A8297B0237DEFA000D7A051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8297AF237DEFA000D7A051 /* Assets.xcassets */; };
 		5A8297B3237DEFA000D7A051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8297B1237DEFA000D7A051 /* LaunchScreen.storyboard */; };
 		5A8297BE237DEFA100D7A051 /* CassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8297BD237DEFA100D7A051 /* CassiniTests.swift */; };
 		5A8297C9237DEFA100D7A051 /* CassiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8297C8237DEFA100D7A051 /* CassiniUITests.swift */; };
+		5A8297DA237DF06500D7A051 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8297D9237DF06500D7A051 /* ImageViewController.swift */; };
+		5A8297DD237DFB9F00D7A051 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8297DB237DFB9F00D7A051 /* DemoURLs.swift */; };
+		5A8297DE237DFB9F00D7A051 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A8297DC237DFB9F00D7A051 /* oval.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		5A8297A3237DEFA000D7A051 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8297A6237DEFA000D7A051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A8297A8237DEFA000D7A051 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A8297AA237DEFA000D7A051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A8297AD237DEFA000D7A051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A8297AF237DEFA000D7A051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A8297B2237DEFA000D7A051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		5A8297C4237DEFA100D7A051 /* CassiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8297C8237DEFA100D7A051 /* CassiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniUITests.swift; sourceTree = "<group>"; };
 		5A8297CA237DEFA100D7A051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8297D9237DF06500D7A051 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		5A8297DB237DFB9F00D7A051 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		5A8297DC237DFB9F00D7A051 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,12 @@
 		5A8297A5237DEFA000D7A051 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				5A8297A6237DEFA000D7A051 /* AppDelegate.swift */,
-				5A8297A8237DEFA000D7A051 /* SceneDelegate.swift */,
-				5A8297AA237DEFA000D7A051 /* ViewController.swift */,
+				5A8297DB237DFB9F00D7A051 /* DemoURLs.swift */,
+				5A8297DC237DFB9F00D7A051 /* oval.jpg */,
 				5A8297AC237DEFA000D7A051 /* Main.storyboard */,
-				5A8297AF237DEFA000D7A051 /* Assets.xcassets */,
-				5A8297B1237DEFA000D7A051 /* LaunchScreen.storyboard */,
 				5A8297B4237DEFA000D7A051 /* Info.plist */,
+				5A8297D9237DF06500D7A051 /* ImageViewController.swift */,
+				5A8297D6237DEFD000D7A051 /* Supporting files */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -126,6 +129,17 @@
 				5A8297CA237DEFA100D7A051 /* Info.plist */,
 			);
 			path = CassiniUITests;
+			sourceTree = "<group>";
+		};
+		5A8297D6237DEFD000D7A051 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				5A8297A6237DEFA000D7A051 /* AppDelegate.swift */,
+				5A8297A8237DEFA000D7A051 /* SceneDelegate.swift */,
+				5A8297AF237DEFA000D7A051 /* Assets.xcassets */,
+				5A8297B1237DEFA000D7A051 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A8297B3237DEFA000D7A051 /* LaunchScreen.storyboard in Resources */,
+				5A8297DE237DFB9F00D7A051 /* oval.jpg in Resources */,
 				5A8297B0237DEFA000D7A051 /* Assets.xcassets in Resources */,
 				5A8297AE237DEFA000D7A051 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8297AB237DEFA000D7A051 /* ViewController.swift in Sources */,
+				5A8297DD237DFB9F00D7A051 /* DemoURLs.swift in Sources */,
 				5A8297A7237DEFA000D7A051 /* AppDelegate.swift in Sources */,
+				5A8297DA237DF06500D7A051 /* ImageViewController.swift in Sources */,
 				5A8297A9237DEFA000D7A051 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
